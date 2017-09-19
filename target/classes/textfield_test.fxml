@@ -17,6 +17,6 @@
                 <RequiredFieldValidator message="Input Required!" />
             </validators>
         </JFXTextField>
-        <JFXButton fx:id="btnTest" layoutX="124.0" layoutY="139.0" text="Button Action" />
+        <JFXButton fx:id="btnTest" layoutX="135.0" layoutY="139.0" style="-fx-background-color: RED;" text="Press First" textFill="WHITE" />
     </children>
 </AnchorPane>

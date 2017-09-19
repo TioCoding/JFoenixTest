@@ -14,17 +14,27 @@ public class TextFieldTestController {
 
     @FXML
     public void initialize() {
+
+        // PROBLEM
 //        txtTest.focusedProperty().addListener((o, oldVal, newVal) -> {
 //            if (!newVal) {
 //                txtTest.validate();
 //            }
 //        });
+//
+//        btnTest.setOnAction(e -> {
+//            txtTest.resetValidation();
+//            txtTest.requestFocus();
+//        });
+
+        // PROBLEM IN FIRST PRESS BUTTON
 
         btnTest.setOnAction(e -> {
             txtTest.resetValidation();
             txtTest.validate();
             txtTest.requestFocus();
         });
+
     }
 
 }
