@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.validation.RequiredFieldValidator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="188.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TextFieldTestController">
+    <children>
+        <JFXTextField fx:id="txtTest" labelFloat="true" layoutX="100.0" layoutY="38.0" promptText="First Name">
+            <validators>
+                <RequiredFieldValidator message="Input Required!" />
+            </validators>
+        </JFXTextField>
+        <JFXTextField fx:id="txtTest2" labelFloat="true" layoutX="100.0" layoutY="82.0" promptText="First Name">
+            <validators>
+                <RequiredFieldValidator message="Input Required!" />
+            </validators>
+        </JFXTextField>
+        <JFXButton fx:id="btnTest" layoutX="135.0" layoutY="139.0" style="-fx-background-color: RED;" text="Press First" textFill="WHITE" />
+    </children>
+</AnchorPane>
